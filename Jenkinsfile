@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'pip install openpyxl'
+                sh 'pip install openpyxl schedule'
             }
         }
 
