@@ -21,4 +21,4 @@ Before using SuperChat Excel, you need to have the following prerequisites insta
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Fabricio2210org/superchatexc.git
+   git clone https://github.com/Fabricio2210/superchatexc.git
