@@ -2,9 +2,9 @@ import schedule
 import time
 from wrapper import wrapper
 print(f"running")
-schedule.every().day.at("18:00").do(lambda: wrapper("dsp","superchats"))
-schedule.every().day.at("18:05").do(lambda: wrapper("reacts","superchats"))
-schedule.every().day.at("18:10").do(lambda: wrapper("doody","superchats"))
+schedule.every().day.at("18:15").do(lambda: wrapper("dsp","superchats"))
+schedule.every().day.at("18:20").do(lambda: wrapper("reacts","superchats"))
+schedule.every().day.at("18:25").do(lambda: wrapper("doody","superchats"))
 try:
     while True:
         time.sleep(1)
