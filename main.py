@@ -1,7 +1,7 @@
 import schedule
 import time
 from wrapper import wrapper
-print(f"running superchatexcel")
+print(f"running superchatexcel!!")
 schedule.every().day.at("18:15").do(lambda: wrapper("dsp","superchats"))
 schedule.every().day.at("18:20").do(lambda: wrapper("reacts","superchats"))
 schedule.every().day.at("18:25").do(lambda: wrapper("doody","superchats"))
